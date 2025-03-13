@@ -106,7 +106,9 @@ pip install pysqlite3 pandas numpy scikit-learn pydantic langchain-core chromadb
 │   └── ...  
 ├── Logging/  
 │   └── ... (log files go here) ...  
-├── main.py (the script with all classes and the main execution)  
+├── PreprocessingScripts/  
+│   └── ... (Some preprocessing scripts are included) ...  
+├── LangChain-Testing.py (the script with all classes and the main execution)  
 ├── requirements.txt  
 ├── README.md  
 └── ...
@@ -189,7 +191,7 @@ By default, this script might use "llama3.1" or "llama3.1:70b" in Ollama. Howeve
 {
     "name": "My-Custom-Classifier",
     "clf": LangChainOllamaClassifier(
-        model="llama2:7b",
+        model="deepseek-r1:671b",
         max_training_examples=few_shot_examples
     )
 }
