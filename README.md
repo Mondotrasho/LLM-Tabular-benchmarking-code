@@ -63,8 +63,8 @@ This repository contains a Python script for benchmarking classification perform
 
 1. **Clone** the repository:
 ```bash
-git clone https://github.com/yourusername/llama-classification-benchmark.git
-cd llama-classification-benchmark
+git clone https://github.com/Mondotrasho/LLM-Tabular-benchmarking-code.git
+cd LLM-Tabular-benchmarking-code
 ```
 
 2. **Create and activate a virtual environment** (recommended):
