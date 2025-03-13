@@ -137,7 +137,7 @@ Add or remove dataset names from this list.
 
 4. **Run the script**:
 ```bash
-python main.py
+python LangChain-Testing.py
 ```
 - The script will run cross-validation on each dataset, training and evaluating each specified classifier in `classifiers`.
 - Logs will be saved in the `Logging/` directory.
