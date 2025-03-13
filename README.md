@@ -1,4 +1,4 @@
-# LLaMA-Based Classification with Logging & Benchmarking
+# LLaMA-Based Tabular Data Classification with Logging & Benchmarking
 
 This repository contains a Python script for benchmarking classification performance using both LLaMA-based large language models (LLMs) and traditional methods (e.g., Logistic Regression). The code includes:
 
@@ -185,7 +185,7 @@ This is invaluable for debugging model responses and analyzing performance in de
 
 By default, this script might use "llama3.1" or "llama3.1:70b" in Ollama. However, you can easily switch to any other model (e.g., "deepseek-r1:671b") by changing the `model` parameter in the classifier definitions. For example:
 
-```json
+```
 {
     "name": "My-Custom-Classifier",
     "clf": LangChainOllamaClassifier(
