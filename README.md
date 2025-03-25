@@ -77,7 +77,7 @@ venv\Scripts\activate        # On Windows
 
 3. **Install dependencies**:
 ```bash
-pip install pysqlite3 pandas numpy scikit-learn pydantic langchain-core chromadb ollama
+pip install pysqlite3-binary pandas numpy scikit-learn pydantic langchain-core chromadb ollama
 ```
 
 4. **Set up your environment** to point to the correct Ollama or other model paths if needed. For instance, if you use `ollama`, ensure the `ollama` CLI is installed and your model files are in the right location.
